@@ -1,0 +1,6 @@
+@NetCore_backend_HostAddress = http://localhost:5258
+
+Post {{NetCore_backend_HostAddress}}/auth/login
+Accept: application/json
+
+###

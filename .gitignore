@@ -1,0 +1,89 @@
+# ===================================================================
+# Genel Göz Ardı Edilecekler (İşletim Sistemi, Editör vb.)
+# ===================================================================
+
+# macOS'a özgü dosyalar
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows'a özgü dosyalar
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# Editör ve IDE'lere özgü ayar klasörleri
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===================================================================
+# .NET Core API Projesi (net-core-api-backend/)
+# ===================================================================
+
+# Derleme çıktıları
+NetCore-backend/bin/
+NetCore-backend/obj/
+
+# User Secrets dosyası
+NetCore-backend/secrets.json
+
+# Rider ve ReSharper önbellekleri
+.idea*/
+!**/.idea/workspace.xml
+
+# Log dosyaları
+*.log
+logs/
+
+# Yerel veritabanı dosyaları
+*.mdf
+*.ldf
+
+# Visual Studio Test dosyaları
+*.DotSettings.user
+/TestResults
+
+# ===================================================================
+# Next.js Frontend Projesi (nextjs-frontend/)
+# ===================================================================
+
+# Bağımlılıklar (package manager)
+nextjs-frontend/node_modules/
+nextjs-frontend/.pnpm-store/
+
+# Derleme ve üretim çıktıları
+nextjs-frontend/.next/
+nextjs-frontend/out/
+nextjs-frontend/build/
+
+# Yerel ortam değişkenleri dosyaları
+# .env.local'ı asla git'e göndermeyin! Hassas anahtarlar içerir.
+nextjs-frontend/.env.local
+nextjs-frontend/.env.development.local
+nextjs-frontend/.env.test.local
+nextjs-frontend/.env.production.local
+
+# Hata ayıklama logları
+nextjs-frontend/npm-debug.log*
+nextjs-frontend/yarn-debug.log*
+nextjs-frontend/yarn-error.log*
+nextjs-frontend/pnpm-debug.log*
+
+# Next.js tarafından üretilen TypeScript cache dosyası
+nextjs-frontend/.ts-cache/
+
+# ===================================================================
+# Diğer
+# ===================================================================
+
+# Bazen oluşturulan zip/tar dosyaları
+*.zip
+*.tar
+*.gz
+*.rar

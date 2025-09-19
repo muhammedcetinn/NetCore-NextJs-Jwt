@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.navLinks a,
+.authLinks a,
+.authLinks span {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+.navLinks a:hover,
+.authLinks a:hover {
+    text-decoration: underline;
+}
+
+.authLinks {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #777;
+}
+
+
+.loadingText,
+.welcomeText {
+  color: #ccc; /* Loading ve hoş geldin yazılarını biraz daha soluk yapabiliriz */
+  margin-right: 1rem;
+}
+
+.welcomeText {
+  color: #fff;
+}
